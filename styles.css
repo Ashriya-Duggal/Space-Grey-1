@@ -1,0 +1,226 @@
+body {
+  margin: 3rem;
+  padding: 10px;
+  background-color: #cccccc;
+}
+
+.navbar {
+  display: inline-block;
+  text-align: center;
+  justify-content: center;
+  width: 23%;
+  height: 3rem;
+  border: 0;
+  font-size: 210%;
+  background-color: #dddddd;
+  font-family: "Times New Roman", Times, serif;
+  margin: 10px;
+  box-shadow: 0 0 5px rgba(104, 104, 104, 0.8);
+}
+
+.btnn {
+  background-color: #333333;
+  color: white;
+  height: 15%;
+  width: 30%;
+  box-shadow: 0 0 5px rgba(104, 104, 104, 0.8);
+}
+.btnn:hover {
+  background-color: white;
+  color: black;
+}
+.navbar:hover {
+  background-color: rgb(0, 0, 0);
+  color: white;
+}
+.container {
+  text-align: center;
+  display: grid;
+  gap: 10px;
+  font-family: "Times New Roman", Times, serif;
+  grid-template-areas:
+    "picture picture membership"
+    "picture  picture promembership";
+}
+.container h1 {
+  font-size: 400%;
+  font-weight: bold;
+}
+.container p {
+  font-size: 200%;
+}
+.b1 {
+  background-color: #333333;
+  width: 15%;
+  height: 10%;
+  color: white;
+  margin: auto;
+}
+.b1:hover {
+  background-color: white;
+  color: black;
+}
+.blocks1 {
+  background-color: #dddddd;
+  justify-items: center;
+  box-shadow: 0 0 5px rgba(104, 104, 104, 0.8);
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  padding: 10px;
+  margin: 2px;
+}
+.blocks2 {
+  background-color: #dddddd;
+  justify-items: center;
+  box-shadow: 0 0 5px rgba(104, 104, 104, 0.8);
+  text-align: center;
+  padding: 10px;
+  font-family: "Times New Roman", Times, serif;
+  margin: 2px;
+}
+.imgtext {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  text-align: left;
+}
+
+#picture {
+  background-image: url(images/pexels-philippe-donn-1169754.jpg);
+  opacity: 95%;
+  font-size: 100%;
+  width: 68.2rem;
+  color: white;
+  grid-area: picture;
+  margin-left: 0.6rem;
+  display: flex;
+  flex-direction: column;
+  background-size: cover;
+}
+#membership {
+  grid-area: membership;
+  width: 20 rem;
+  height: 19rem;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.btnn:hover {
+  background-color: white;
+}
+#promembership {
+  grid-area: promembership;
+  width: 19rem;
+  height: 19rem;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+.btnn:hover {
+  background-color: white;
+}
+
+.heading {
+  display: grid;
+  font-family: "Times New Roman", Times, serif;
+  grid-template-areas: " A1 M1 D1 S1";
+  /* width: 114.3rem; */
+  padding-top: 2rem;
+}
+.heading h2 {
+  font-size: 200%;
+  font-weight: bold;
+}
+.heading p {
+  font-size: 150%;
+}
+.blocks {
+  background-color: #dddddd;
+  text-align: center;
+  box-shadow: 0 0 5px rgba(104, 104, 104, 0.8);
+  padding: 50px 10px;
+  margin: 20px;
+  width: 21rem;
+  height: 15rem;
+}
+
+#A1 {
+  grid-area: A1;
+}
+#M1 {
+  grid-area: M1;
+}
+#D1 {
+  grid-area: D1;
+}
+#S1 {
+  grid-area: S1;
+}
+.web {
+  margin: 15px;
+  background-color: #dddddd;
+  height: 32rem;
+  width:90rem;
+  font-family: "Times New Roman", Times, serif;
+  box-shadow: 0 0 5px rgba(104, 104, 104, 0.8);
+}
+
+.img2 {
+  width: 40rem;
+  height: 30rem;
+  float: left;
+  margin: 20px;
+  box-shadow: 0 0 5px rgba(104, 104, 104, 0.8);
+}
+#picture2{
+  width: 90rem;
+}
+
+.web1 h2 {
+  margin-top: 30px;
+  font-size: 250%;
+  font-weight: bold;
+  padding-top: 50px;
+}
+.web1 p {
+  margin-left: 90px;
+
+  font-size: 100%;
+}
+
+.learn {
+  background-color: #333333;
+  width: 110px;
+  color: white;
+  height: 50px;
+  margin-top: 50px;
+}
+.learn:hover {
+  background-color: white;
+}
+.dotted {
+  border: dotted #A7A7A7;
+  height: 0;
+  border-width: 8px 0 0;
+  width: 5%;
+  margin-top: 3rem;
+}
+.images8 {
+  /* width: 110rem; */
+  margin: 3rem 5px;
+
+}
+.img3 {
+  width: 11%;
+  height: 12rem;
+  margin: 8px;
+  box-shadow: 0 0 5px rgba(104, 104, 104, 0.8);
+}
+.footer {
+  background-color: #333333;
+  border: 3px solid black;
+  text-align: center;
+  margin: 10px;
+  color: white;
+  width: 100%;
+}
