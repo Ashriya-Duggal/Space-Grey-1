@@ -1,11 +1,12 @@
 body {
-  margin: 3rem;
-  padding: 10px;
+  margin: 2% 5%;
+  padding: 0;
   background-color: #cccccc;
 }
-
+header {
+  display: flex;
+}
 .navbar {
-  display: inline-block;
   text-align: center;
   justify-content: center;
   width: 23%;
@@ -14,15 +15,16 @@ body {
   font-size: 210%;
   background-color: #dddddd;
   font-family: "Times New Roman", Times, serif;
-  margin: 10px;
+  margin: 12px;
   box-shadow: 0 0 5px rgba(104, 104, 104, 0.8);
 }
 
 .btnn {
-  background-color: #333333;
+  background-color: hsl(0, 0%, 20%);
   color: white;
   height: 15%;
-  width: 30%;
+  padding: 2%;
+  /* width: 2%; */
   box-shadow: 0 0 5px rgba(104, 104, 104, 0.8);
 }
 .btnn:hover {
@@ -35,6 +37,8 @@ body {
 }
 .container {
   text-align: center;
+  margin-top: 10px;
+  width: 97.5%;
   display: grid;
   gap: 10px;
   font-family: "Times New Roman", Times, serif;
@@ -66,8 +70,14 @@ body {
   box-shadow: 0 0 5px rgba(104, 104, 104, 0.8);
   text-align: center;
   font-family: "Times New Roman", Times, serif;
-  padding: 10px;
-  margin: 2px;
+}
+#membership {
+  grid-area: membership;
+  width: 24.5rem;
+  height: 18rem;
+  margin: 10px 11px;
+  /* margin-top: 10px;
+  margin-bottom: 10px; */
 }
 .blocks2 {
   background-color: #dddddd;
@@ -89,7 +99,7 @@ body {
   background-image: url(images/pexels-philippe-donn-1169754.jpg);
   opacity: 95%;
   font-size: 100%;
-  width: 68.2rem;
+  width: 73rem;
   color: white;
   grid-area: picture;
   margin-left: 0.6rem;
@@ -97,24 +107,15 @@ body {
   flex-direction: column;
   background-size: cover;
 }
-#membership {
-  grid-area: membership;
-  width: 20 rem;
-  height: 19rem;
-  margin-left: 10px;
-  margin-bottom: 10px;
-}
 
 .btnn:hover {
   background-color: white;
 }
 #promembership {
   grid-area: promembership;
-  width: 19rem;
-  height: 19rem;
-  margin-left: 10px;
-  margin-right: 10px;
-  margin-bottom: 10px;
+  width: 23.4rem;
+  height: 18.8rem;
+  margin: 10px 11px;
 }
 .btnn:hover {
   background-color: white;
@@ -124,7 +125,7 @@ body {
   display: grid;
   font-family: "Times New Roman", Times, serif;
   grid-template-areas: " A1 M1 D1 S1";
-  /* width: 114.3rem; */
+  width: 97.6%;
   padding-top: 2rem;
 }
 .heading h2 {
@@ -137,10 +138,12 @@ body {
 .blocks {
   background-color: #dddddd;
   text-align: center;
+  padding-left: 2%;
+  padding-right: 2%;
   box-shadow: 0 0 5px rgba(104, 104, 104, 0.8);
   padding: 50px 10px;
-  margin: 20px;
-  width: 21rem;
+  margin: 10px;
+  width: 23.2rem;
   height: 15rem;
 }
 
@@ -157,14 +160,39 @@ body {
   grid-area: S1;
 }
 .web {
-  margin: 15px;
+  margin: 10px;
   background-color: #dddddd;
-  height: 32rem;
-  width:90rem;
+  /* height: 32rem; */
+  width: 96%;
+  display: grid;
+  grid-template-areas: "pic web";
   font-family: "Times New Roman", Times, serif;
   box-shadow: 0 0 5px rgba(104, 104, 104, 0.8);
 }
-
+.a {
+  grid-area: a;
+}
+.b {
+  grid-area: b;
+}
+.c {
+  grid-area: c;
+}
+.d {
+  grid-area: d;
+}
+.e {
+  grid-area: e;
+}
+.f {
+  grid-area: f;
+}
+.g {
+  grid-area: g;
+}
+.h {
+  grid-area: h;
+}
 .img2 {
   width: 40rem;
   height: 30rem;
@@ -172,8 +200,12 @@ body {
   margin: 20px;
   box-shadow: 0 0 5px rgba(104, 104, 104, 0.8);
 }
-#picture2{
-  width: 90rem;
+#picture2 {
+  grid-area: pic;
+}
+.web1 {
+  margin-top: 8%;
+  grid-area: web;
 }
 
 .web1 h2 {
@@ -183,8 +215,6 @@ body {
   padding-top: 50px;
 }
 .web1 p {
-  margin-left: 90px;
-
   font-size: 100%;
 }
 
@@ -194,26 +224,26 @@ body {
   color: white;
   height: 50px;
   margin-top: 50px;
+  margin-left: 30%;
 }
 .learn:hover {
   background-color: white;
 }
 .dotted {
-  border: dotted #A7A7A7;
+  border: dotted #a7a7a7;
   height: 0;
   border-width: 8px 0 0;
   width: 5%;
   margin-top: 3rem;
 }
 .images8 {
-  /* width: 110rem; */
-  margin: 3rem 5px;
-
+  display: grid;
+  grid-template-areas: "a b c d e f g h";
 }
 .img3 {
   width: 11%;
   height: 12rem;
-  margin: 8px;
+  margin: 10px;
   box-shadow: 0 0 5px rgba(104, 104, 104, 0.8);
 }
 .footer {
@@ -222,5 +252,75 @@ body {
   text-align: center;
   margin: 10px;
   color: white;
-  width: 100%;
+  width: 96.5%;
+}
+@media screen and (max-width: 450px) {
+  .navbar {
+    width: 42%;
+  }
+  header {
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  #picture {
+    width: 20rem;
+  }
+  .container {
+    grid-template-areas:
+      "picture picture"
+      "picture  picture"
+      "membership membership"
+      "promembership promembership";
+  }
+  .heading {
+    grid-template-areas:
+      " A1"
+      " M1"
+      " D1"
+      " S1";
+  }
+  #membership,
+  #promembership {
+    margin-left: 0px;
+  }
+  .img2 {
+    width: 22rem;
+  }
+  .images8 {
+    grid-template-areas:
+      "a b"
+      "c d"
+      "e f"
+      "g h";
+  }
+  .img3 {
+    width: 11rem;
+  }
+  #A1,
+  #M1,
+  #D1,
+  #S1 {
+    margin-left: 0;
+  }
+  .web {
+    width: 24rem;
+    grid-template-areas:
+      "pic"
+      "web";
+    height: 60rem;
+  }
+  .web1 h2 {
+    margin: 2%;
+  }
+  .web1 p {
+    margin: 2%;
+  }
+  #picture2 {
+    height: 0;
+  }
+  .web1 {
+    margin-top: 30rem;
+    height: 2%;
+  }
 }
